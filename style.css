@@ -1,0 +1,128 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit';
+}
+
+.main {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sub-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif' !important;
+}
+
+.main span {
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+}
+
+.prep-time h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Young Serif' !important;
+}
+
+.prep-time {
+    background: hsl(330, 100%, 98%);
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+ul.preplist {
+    padding-left: 22px;
+}
+
+ul.preplist li {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+ul.ingrelist {
+    padding-left: 18px;
+}
+
+ul.ingrelist li {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+ol.instrlist {
+    padding-left: 18px;
+}
+
+ol.instrlist li {
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 36%;
+    font-weight: 400;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+@media only screen and (max-width : 430px) {
+
+    body {
+        margin: 0px;
+    }
+    .main {
+
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    .sub-image img {
+        border-radius: 0px;
+    }
+    .sub-image h1, .sub-image p {
+        margin: 10px 35px;
+    }
+    .prep-time {
+        margin: 20px 35px;
+    }
+    .ingredients {
+        margin: 0px 35px;
+    }
+    .instruction {
+        margin: 0px 35px;
+    }
+    .nutrition {
+        margin: 0px 35px;
+        padding-bottom: 20px;
+    }
+ 
+}
